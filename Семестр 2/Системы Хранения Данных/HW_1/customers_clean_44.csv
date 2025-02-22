@@ -1,0 +1,45 @@
+"customer_id","first_name","last_name","gender","DOB","job_title","job_industry_category","wealth_segment","deceased_indicator","owns_car","address","postcode","state","country","property_valuation"
+1,"Laraine","Medendorp","F",1953-10-12,"Executive Secretary","Health","Mass Customer","N","Yes","060 Morning Avenue",2016,"New South Wales","Australia",10
+2,"Eli","Bockman","Male",1980-12-16,"Administrative Officer","Financial Services","Mass Customer","N","Yes","6 Meadow Vale Court",2153,"New South Wales","Australia",10
+3,"Arlin","Dearle","Male",1954-01-20,"Recruiting Manager","Property","Mass Customer","N","Yes","0 Holy Cross Court",4211,"QLD","Australia",9
+5,"Sheila-kathryn","Calton","Female",1977-05-13,"Senior Editor","n/a","Affluent Customer","N","Yes","9 Oakridge Court",3216,"VIC","Australia",9
+8,"Rod","Inder","Male",1962-03-30,"Media Manager I","n/a","Mass Customer","N","No","97736 7th Trail",2023,"New South Wales","Australia",12
+9,"Mala","Lind","Female",1973-03-10,"Business Systems Development Analyst","Argiculture","Affluent Customer","N","Yes","93405 Ludington Park",3044,"VIC","Australia",8
+10,"Fiorenze","Birdall","Female",1988-10-11,"Senior Quality Engineer","Financial Services","Mass Customer","N","Yes","44339 Golden Leaf Alley",4557,"QLD","Australia",4
+12,"Sawyere","Flattman","Male",1994-07-21,"Nuclear Power Engineer","Manufacturing","Mass Customer","N","No","9 Mcbride Trail",2760,"New South Wales","Australia",8
+13,"Gabriele","Norcross","Male",1955-02-15,"Developer I","Financial Services","High Net Worth","N","Yes","9861 New Castle Avenue",2428,"New South Wales","Australia",9
+14,"Rayshell","Kitteman","Female",1983-03-25,"Account Executive","Financial Services","Affluent Customer","N","No","52 Moland Street",3331,"VIC","Australia",4
+15,"Erroll","Radage","Male",2000-07-13,"Junior Executive","Manufacturing","Mass Customer","N","No","82391 Kensington Lane",3058,"VIC","Australia",9
+16,"Harlin","Parr","Male",1977-02-27,"Media Manager IV","n/a","Mass Customer","N","Yes","092 2nd Alley",2135,"New South Wales","Australia",12
+17,"Heath","Faraday","Male",1962-03-19,"Sales Associate","n/a","Affluent Customer","N","Yes","59 Spaight Circle",2233,"New South Wales","Australia",9
+18,"Marjie","Neasham","Female",1967-07-06,"Professor","n/a","Affluent Customer","N","No","032 Bartelt Crossing",2444,"New South Wales","Australia",8
+19,"Sorcha","Keyson","Female",2001-04-15,"Geological Engineer","Manufacturing","High Net Worth","N","No","18 Jenna Center",2650,"New South Wales","Australia",7
+20,"Basile","Firth","Male",1980-08-13,"Project Manager","Manufacturing","Mass Customer","N","No","3 Cordelia Plaza",2153,"New South Wales","Australia",10
+21,"Mile","Cammocke","Male",1980-09-20,"Safety Technician I","Manufacturing","Affluent Customer","N","Yes","28 5th Center",4413,"QLD","Australia",3
+24,"Kim","Skpsey","Female",1977-12-03,"Research Assistant I","Argiculture","Mass Customer","N","Yes","48 Eagan Avenue",4868,"QLD","Australia",4
+25,"Geoff","Assaf","Male",1976-12-02,"Accounting Assistant III","Financial Services","Mass Customer","N","Yes","9 Buell Park",4116,"QLD","Australia",7
+26,"Trixi","Ginnelly","Female",1978-06-10,"Editor","Financial Services","Mass Customer","N","Yes","02663 Buell Parkway",2519,"New South Wales","Australia",11
+27,"Garvin","Klees","Male",1978-09-25,"Research Nurse","Health","Mass Customer","N","Yes","2294 Pleasure Place",2135,"New South Wales","Australia",12
+28,"Fee","Zellmer","Male",1973-09-30,"Senior Quality Engineer","Health","Affluent Customer","N","Yes","2951 Petterle Place",2756,"New South Wales","Australia",9
+29,"Mona","Sancraft","Female",1968-06-22,"Safety Technician III","Manufacturing","Mass Customer","N","No","63 Lukken Drive",2170,"New South Wales","Australia",9
+31,"Star","Praton","Female",1962-11-24,"Staff Accountant III","Telecommunications","High Net Worth","N","Yes","34 Russell Plaza",4127,"QLD","Australia",6
+32,"Marion","Vanichkin","Female",1995-04-20,"Legal Assistant","Manufacturing","Affluent Customer","N","No","78 Del Sol Hill",2535,"New South Wales","Australia",8
+33,"Ernst","Hacon","Male",1957-06-25,"Product Engineer","n/a","Affluent Customer","N","Yes","54 Sage Plaza",4726,"QLD","Australia",1
+34,"Jephthah","Bachmann","U","1843-12-21","Legal Assistant","IT","Affluent Customer","N","No","90 Lawn Parkway",4805,"QLD","Australia",4
+35,"Margaretha","Strettle","Female",1963-09-28,"Information Systems Manager","Health","High Net Worth","N","Yes","38726 Ilene Crossing",2212,"New South Wales","Australia",10
+36,"Lurette","Stonnell","Female",1977-11-09,"VP Quality Control","n/a","Affluent Customer","N","No","3496 Brown Drive",2207,"New South Wales","Australia",8
+37,"Laurie","Dwerryhouse","Female",1985-12-22,"Social Worker","Health","High Net Worth","N","No","7188 Cody Way",3350,"VIC","Australia",9
+38,"Cordi","Merman","Female",1955-10-29,"Senior Cost Accountant","Financial Services","Affluent Customer","N","No","1 Claremont Park",3931,"VIC","Australia",10
+39,"Hunfredo","Smalley","Male",1979-04-16,"Assistant Media Planner","Entertainment","Mass Customer","N","No","60 Eagan Circle",4018,"QLD","Australia",8
+40,"Tomasine","Jerche","Female",1981-10-27,"Payment Adjustment Coordinator","Manufacturing","Affluent Customer","N","No","89314 Eagle Crest Center",4670,"QLD","Australia",2
+41,"Basilius","Coupe","Male",1976-04-14,"Food Chemist","Health","Mass Customer","N","No","2028 Lakewood Place",2480,"New South Wales","Australia",3
+42,"Chiquita","Durnall","Female",1977-03-28,"Accountant III","Manufacturing","Mass Customer","N","No","70875 Hudson Point",3212,"VIC","Australia",6
+43,"Indira","Belt","Female",1983-03-01,"Director of Sales","Retail","Mass Customer","N","No","543 Killdeer Park",2322,"New South Wales","Australia",4
+44,"Neron","Verick","Male",1981-10-18,"Assistant Media Planner","Entertainment","Affluent Customer","N","Yes","22125 Ramsey Drive",3198,"VIC","Australia",9
+45,"Trace","Woodhead","Male",1975-09-23,"Senior Financial Analyst","Financial Services","Mass Customer","N","No","3107 Calypso Terrace",2210,"New South Wales","Australia",9
+47,"Matthew","Jeaycock","Male",1992-10-22,"Registered Nurse","Health","Affluent Customer","N","No","4853 Gulseth Avenue",4503,"QLD","Australia",5
+48,"Rebbecca","Casone","Female",1975-08-15,"Biostatistician II","n/a","Mass Customer","N","Yes","9 Michigan Terrace",2145,"New South Wales","Australia",8
+49,"Nolly","Ownsworth","Male",1994-01-26,"VP Quality Control","n/a","Affluent Customer","N","No","62 Steensland Road",4350,"QLD","Australia",3
+50,"Whitby","Schapero","Male",1980-10-01,"Account Executive","Manufacturing","Mass Customer","N","Yes","6 Homewood Avenue",2142,"New South Wales","Australia",8
+51,"Fidelio","Dilke","Male",1959-12-05,"Computer Systems Analyst II","Retail","Mass Customer","N","No","15 Almo Lane",2029,"New South Wales","Australia",10
+53,"Agnella","Gocke","Female",1954-04-18,"Software Test Engineer II","Financial Services","Mass Customer","N","No","89787 Village Green Terrace",4280,"QLD","Australia",6

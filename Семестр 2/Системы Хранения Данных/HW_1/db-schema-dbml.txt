@@ -1,0 +1,92 @@
+// Lookup Tables
+Table job_industries {
+  job_industry_id integer [pk, increment]
+  industry_name varchar(50) [not null, unique]
+}
+
+Table wealth_segments {
+  wealth_segment_id integer [pk, increment]
+  segment_name varchar(50) [not null, unique]
+}
+
+Table brands {
+  brand_id integer [pk, increment]
+  brand_name varchar(50) [not null, unique]
+}
+
+Table product_lines {
+  product_line_id integer [pk, increment]
+  line_name varchar(50) [not null, unique]
+}
+
+Table product_classes {
+  product_class_id integer [pk, increment]
+  class_name varchar(50) [not null, unique]
+}
+
+Table product_sizes {
+  product_size_id integer [pk, increment]
+  size_name varchar(50) [not null, unique]
+}
+
+// Main Tables
+Table customers {
+  customer_id integer [pk]
+  first_name varchar(50) [not null]
+  last_name varchar(50) [not null]
+  gender varchar(10)
+  DOB date
+  job_title varchar(100)
+  job_industry_id integer [ref: > job_industries.job_industry_id]
+  wealth_segment_id integer [ref: > wealth_segments.wealth_segment_id]
+  deceased_indicator char(1) [not null, note: 'Y or N']
+  owns_car boolean [not null]
+  address varchar(200)
+  postcode varchar(10)
+  state varchar(50)
+  country varchar(50)
+  property_valuation integer
+
+  indexes {
+    (customer_id) [pk]
+    job_industry_id
+    wealth_segment_id
+  }
+}
+
+Table products {
+  product_id integer [pk]
+  brand_id integer [not null, ref: > brands.brand_id]
+  product_line_id integer [not null, ref: > product_lines.product_line_id]
+  product_class_id integer [not null, ref: > product_classes.product_class_id]
+  product_size_id integer [not null, ref: > product_sizes.product_size_id]
+  list_price decimal(10,2) [not null]
+  standard_cost decimal(10,2) [not null]
+
+  indexes {
+    (product_id) [pk]
+    brand_id
+    product_line_id
+    product_class_id
+    product_size_id
+  }
+}
+
+Table transactions {
+  transaction_id integer [pk]
+  product_id integer [not null, ref: > products.product_id]
+  customer_id integer [not null, ref: > customers.customer_id]
+  transaction_date date [not null]
+  online_order boolean [not null]
+  order_status varchar(20) [not null]
+
+  indexes {
+    (transaction_id) [pk]
+    product_id
+    customer_id
+  }
+}
+
+// Relationships
+Ref: transactions.customer_id > customers.customer_id
+Ref: transactions.product_id > products.product_id
